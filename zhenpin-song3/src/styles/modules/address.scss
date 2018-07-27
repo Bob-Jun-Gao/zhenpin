@@ -1,0 +1,145 @@
+.userhome_content{
+  // position: relative;
+a{cursor: pointer;}
+  #address_manage{
+    padding-top: 20px;
+    width: 900px;
+    height: 1000px;
+    div.address_nav{
+      color: #666;
+      ul{
+        li{
+          float: left;
+          line-height: 46px;
+          font-size: 14px;
+          text-align: center;
+          &:nth-of-type(1){
+            width: 100px;
+          }
+          &:nth-of-type(2){
+            width: 130px;
+          }
+          &:nth-of-type(3){
+            width: 290px;
+          }
+          &:nth-of-type(4){
+            width: 170px; 
+          }
+          &:nth-of-type(5){
+            width: 210px; 
+          }
+        }
+      }
+    }
+    .address_form{
+      color: #666;
+      width: 100%;
+      height: 100%;
+      .address_item{
+        width: 100%;
+        height: 70px;
+        border-bottom: 1px solid #ccc;
+        line-height: 70px;
+        li{
+          padding: 0;
+          margin: 0;
+          float: left;
+          text-align: center;
+          &.default_address{
+            width: 100px;
+          }
+          &.master{
+            width: 130px;
+          }
+          &.address_detail{
+            width: 290px;
+          }
+          &.contact{
+            width: 170px;
+          }
+          &.operate{
+            display: flex;
+            width: 210px;
+            justify-content: center;
+            align-items: center;
+            span{
+              margin-right: 12px;
+            }
+          }
+        }
+        
+      }
+    }
+  }
+  #new_address{
+    display: none;
+    // background: pink;
+    width: 100%;
+    height: 1000px;
+    padding-top: 36px;
+    padding-left: 20px;
+    .position{
+      select{
+        display: inline-block;
+        width: 180px;
+        height: 24px;
+        background: white;
+        &:nth-of-type(1){
+          margin-left: 23px;
+        }
+      }
+    }
+    .address_detail{
+      margin-top: 24px;
+     >span{
+      vertical-align: top;
+      line-height: 50px;
+      display: inline-block;
+     }
+     textarea{
+       margin-left: 20px;
+     }
+    }
+    .host{
+      margin-top: 24px;
+      padding-left: 14px;
+     
+      #guest{
+        margin-left: 25px;
+        width: 135px;
+        height: 24px;
+        margin-right: 62px;
+        border: 1px solid #ccc;
+      }
+      #telephone{
+        margin-left: 23px;
+        width: 180px;
+        height: 24px;
+        border: 1px solid #ccc;
+      }
+    }
+    .makeitdefault{
+      position: relative;
+      margin-top: 33px;
+      #makeitdefault{
+        margin-left: 10px;
+        margin-right: 13px;
+      }
+      #btn_save{
+        width: 145px;
+        height: 40px;
+        background: #865C30;
+        color: white;
+        margin-left: 204px;
+        margin-right: 67px;
+      }
+      #btn_cancle{
+        width: 142px;
+        height: 40px;
+        border: 1px solid #865C30;
+        color: #865C30;
+        background: white;
+      }
+    }
+  }
+}

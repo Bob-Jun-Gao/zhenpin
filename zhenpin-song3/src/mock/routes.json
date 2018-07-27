@@ -1,0 +1,9 @@
+{
+  "/api/newProductsList": "/newProductsList",
+  "/api/furnitureList": "/furnitureList",
+  "/api/decorationList": "/decorationList",
+  "/api/bedList": "/bedList",
+  "/api/fabricList":"/fabricList",
+  "/api/collectionsList":"/collectionsList"
+}
+  
